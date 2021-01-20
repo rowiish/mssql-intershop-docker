@@ -6,17 +6,17 @@ To get a locally running database in your docker environment the following steps
 
 Clone or download the project and change to the project folder
 ```
-git clone https://github.com/IntershopCommunicationsAG/mssql-intershop-docker.git
+git clone https://github.com/rowiish/mssql-intershop-docker.git mssql
 
-cd mssql-intershop-docker
+cd mssql
 ```
 Build the container image
 ```
-docker build . --tag mssql-intershop
+docker build . --tag mssql-icm
 ```
 Run the container
 ```
-docker run -d -p 1433:1433 --name mssql-intershop mssql-intershop
+docker run -d -p 1433:1433 --name mssql-icm mssql-icm
 ```
 
 ---
